@@ -1,2 +1,2 @@
 # docker-kalilinux-ansible-githubactions
-kali linux ansible
+[![kali linux ansible local CI workflow](https://github.com/githubfoam/docker-kalilinux-ansible-githubactions/actions/workflows/kalilinux-ansible-local-wf.yml/badge.svg?branch=main)](https://github.com/githubfoam/docker-kalilinux-ansible-githubactions/actions/workflows/kalilinux-ansible-local-wf.yml)  

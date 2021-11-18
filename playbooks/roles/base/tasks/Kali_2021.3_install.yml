@@ -13,3 +13,9 @@
     name: '{{ system_packages }}'
     use: '{{ ansible_pkg_mgr }}'
     state: present
+
+- name: "Install common packages"
+  package:
+    name: '{{ common_kali }}'
+    use: '{{ ansible_pkg_mgr }}'
+    state: present
