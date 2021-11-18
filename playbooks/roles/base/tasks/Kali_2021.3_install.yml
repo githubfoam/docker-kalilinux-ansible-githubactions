@@ -19,3 +19,15 @@
     name: '{{ common_kali }}'
     use: '{{ ansible_pkg_mgr }}'
     state: present
+
+- name: "Install kali_os_packages"
+  package:
+    name: '{{ kali_os_packages }}'
+    use: '{{ ansible_pkg_mgr }}'
+    state: present
+
+- name: "Install kali_tool_packages"
+  package:
+    name: '{{ kali_tool_packages }}'
+    use: '{{ ansible_pkg_mgr }}'
+    state: present
