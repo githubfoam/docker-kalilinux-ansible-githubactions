@@ -19,7 +19,7 @@ jobs:
       name: "kalilinux/ansible"
       dockerfiledir: "dockerfiles"
       dockerfilename: "Dockerfile.kalilinux.kali-tools-forensics"
-      playbookname: "Dockerfile.kalilinux.kali-tools-forensics"
+      playbookname: "playbook-kalilinux.yml"
     steps:
     - uses: actions/checkout@v2
     - name: "os fingerprinting"
